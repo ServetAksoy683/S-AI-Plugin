@@ -1,0 +1,20 @@
+# Gemini API anahtarı: https://aistudio.google.com/apikey
+api-key: "BURAYA_API_KEY"
+model: "gemini-2.5-flash"
+
+# Sahip kontrolü. Cracked (offline-mode) sunucuda isim taklit edilebilir!
+# O yüzden premium/online-mode ise owner-uuid yaz, daha güvenli.
+owner-name: "servetaksoyy"
+owner-uuid: ""
+
+# Diğer oyuncular için bekleme süresi (saniye)
+cooldown-seconds: 5
+
+# Hafızada tutulan son mesaj sayısı (kişi başı)
+history-size: 6
+
+# read_file tek seferde en fazla kaç karakter döndürsün
+max-read-chars: 12000
+
+# Sistem komutuna eklenecek ekstra talimat (isteğe bağlı)
+extra-prompt: ""

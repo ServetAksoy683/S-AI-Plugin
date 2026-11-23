@@ -1,0 +1,14 @@
+name: S-AI
+main: com.servetaksoyy.sai.SAIPlugin
+version: ${project.version}
+api-version: '1.21'
+author: Servet Aksoy (servetaksoyy)
+description: Servet Aksoy'a özel Gemini destekli sunucu yapay zekası
+commands:
+  sai:
+    description: S-AI'ya soru sor
+    usage: /sai <soru>
+    aliases: [ai]
+permissions:
+  sai.use:
+    default: true
